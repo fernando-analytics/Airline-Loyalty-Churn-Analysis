@@ -14,7 +14,13 @@ The goal of this project was to better understand what drives customer churn and
 
 ---
 
-## Questions I Wanted to Explore
+## Main Finding
+
+Customers who actively used the loyalty program had a cancellation rate of only 2.4%, compared with more than 28% among less engaged customers.
+
+Throughout the analysis, customer engagement consistently explained cancellations better than customer profile variables such as salary, education, loyalty card type, or CLV.
+
+## Business Questions
 
 - Do customer profile variables explain churn?
 - Are some customers more likely to cancel based on demographics or loyalty status?
@@ -73,11 +79,19 @@ One of the first things I looked at was customer profile information such as sal
 
 I expected at least some of these variables to show meaningful differences between active and cancelled customers, but most of them turned out to be surprisingly similar across both groups.
 
+Most of the strongest patterns appeared in customer behavior instead.
+
+---
+
 ### Flight activity was one of the strongest signals
 
 The biggest differences started to appear when I looked at customer activity.
 
 Customers who cancelled the program generally flew much less than active customers, and cancellation rates increased sharply among low-activity customers.
+
+Once customers became more active, cancellation rates dropped significantly.
+
+---
 
 ### Customers who never really use the program are much more likely to leave
 
@@ -85,11 +99,17 @@ One result that immediately caught my attention was the number of cancelled cust
 
 Nearly half of the customers who cancelled had no flight activity at all, which was much higher than I expected.
 
+This finding completely changed the direction of the analysis and led me to focus more on engagement than customer profile information.
+
+---
+
 ### Reward redemption seems to matter
 
-Customers who redeemed points were much less likely to cancel than customers who never used their rewards.
+Customers who redeemed points were far less likely to cancel than customers who never used rewards.
 
-This made me think that simply joining the program is not enough. Actually using its benefits appears to be much more important.
+This suggests that actively using the program may be more important than simply being enrolled in it.
+
+---
 
 ### Engagement was the clearest pattern in the data
 
@@ -97,6 +117,7 @@ The strongest result came from the engagement variable I created using flight ac
 
 Customers who actively used the program had a cancellation rate of only 2.4%, compared with more than 28% among less engaged customers.
 
+By the end of the analysis, engagement consistently appeared to be the best indicator of customer retention.
 ---
 
 ## Visualizations
