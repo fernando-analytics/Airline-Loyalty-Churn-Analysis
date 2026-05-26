@@ -145,7 +145,7 @@ Airline-Loyalty-Churn-Analysis/
 ├── sql/
 │   └── churn_analysis.sql
 ├── notebooks/
-│   └── airline_loyalty_analysis.ipynb
+│   └── What_Drives_Customer_Churn_in_an_Airline_Loyalty_Program_.ipynb
 └── images/
     ├── flight_activity_churn.png
     ├── engagement_churn.png
